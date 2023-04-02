@@ -22,3 +22,6 @@ CONFIG
 migartion cli
 1. To Run 
 npx typeorm-ts-node-commonjs migration:run -d src/config/db.ts
+
+COLLECTION
+https://api.postman.com/collections/22263125-600daf6e-6f6e-4234-88a1-63ba6d888b92?access_key=

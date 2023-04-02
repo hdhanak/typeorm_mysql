@@ -10,7 +10,7 @@ export class Photo {
     photo: string
 
    @ManyToOne(()=>Employee,employee=>employee.photos,{
-    onDelete:'CASCADE'
+    onDelete:'SET NULL'
    })
    @JoinColumn()
    employee:Employee
